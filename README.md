@@ -1,7 +1,11 @@
 ---
-services: media-services
-platforms: dotnet
-author: Juliako
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+description: "The sample shows how to use Azure Media Services to dynamically encrypt your content with AES 128-bit clear encryption keys."
+urlFragment: media-services-dotnet-dynamic-encryption-with-aes
 ---
 
 # Using Azure Media Services to Dynamically encrypt your assets with AES-128 
