@@ -8,7 +8,7 @@ description: "The sample shows how to use Azure Media Services to dynamically en
 urlFragment: media-services-dotnet-dynamic-encryption-with-aes
 ---
 
-# Using Azure Media Services to Dynamically encrypt your assets with AES-128 
+# Using Azure Media Services to dynamically encrypt assets with AES-128 
 
 The sample shows how to use Azure Media Services to dynamically encrypt your content with AES 128-bit clear encryption keys. 
 
@@ -25,6 +25,7 @@ To run this sample you will need:
 
 Update the appSettings section of the app.config file with appropriate values. For more information, see [this](https://docs.microsoft.com/azure/media-services/media-services-use-aad-auth-to-access-ams-api) topic.
 
+```xml
 	<appSettings>
 		<add key="AMSAADTenantDomain" value="tenant"/>
 		<add key="AMSRESTAPIEndpoint" value="endpoint"/>
@@ -34,6 +35,7 @@ Update the appSettings section of the app.config file with appropriate values. F
 		<add key="Issuer" value="http://testacs.com" />
 		<add key="Audience" value="urn:test" />
 	</appSettings>
+```
 
 ### Step 3: Start a streaming endpoint
 
