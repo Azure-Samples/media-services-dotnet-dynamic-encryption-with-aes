@@ -8,7 +8,7 @@ description: "The sample shows how to use Azure Media Services to dynamically en
 urlFragment: media-services-dotnet-dynamic-encryption-with-aes
 ---
 
-# Using Azure Media Services to dynamically encrypt assets with AES-128 
+# Dynamically encrypt assets with AES-128 using Azure Media Services v2
 
 The sample shows how to use Azure Media Services to dynamically encrypt your content with AES 128-bit clear encryption keys. 
 
