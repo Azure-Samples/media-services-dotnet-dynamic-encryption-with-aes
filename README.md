@@ -10,7 +10,13 @@ urlFragment: media-services-dotnet-dynamic-encryption-with-aes
 
 # Dynamically encrypt assets with AES-128 using Azure Media Services v2
 
-The sample shows how to use Azure Media Services to dynamically encrypt your content with AES 128-bit clear encryption keys. 
+## NOTE
+ 
+You can find the latest and most extensive Media Services v3 .NET samples in the [Azure Media Services v3](https://github.com/Azure-Samples/media-services-v3-dotnet) repository.
+
+## Overview
+
+The sample in this repo shows how to use Azure Media Services v2 to dynamically encrypt your content with AES 128-bit clear encryption keys. 
 
 ## How To Run This Sample
 
